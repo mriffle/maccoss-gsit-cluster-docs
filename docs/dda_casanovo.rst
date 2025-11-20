@@ -47,6 +47,21 @@ Workflow Steps
 
       /net/maccoss/vol1/maccoss_shared/nextflow/scripts/run-nextflow-casanovo-maccosslab.sh
 
+
+.. note::
+   If you wish to run **Casanovo 4** instead of the latest Casanovo 5, use the ``casanovo4.yaml`` configuration file:
+
+   .. code-block:: bash
+
+      cp /net/maccoss/vol1/maccoss_shared/nextflow/templates/casanovo/casanovo4.yaml . 
+
+   and run the workflow with the ``-4`` flag:
+
+   .. code-block:: bash
+
+      /net/maccoss/vol1/maccoss_shared/nextflow/scripts/run-nextflow-casanovo-maccosslab.sh -4
+
+
 Editing Files with Nano
 ~~~~~~~~~~~~~~~~~~~~~~~
 
