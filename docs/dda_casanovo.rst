@@ -53,7 +53,7 @@ Workflow Steps
 
    .. code-block:: bash
 
-      cp /net/maccoss/vol1/maccoss_shared/nextflow/templates/casanovo/casanovo4.yaml . 
+      cp /net/maccoss/vol1/maccoss_shared/nextflow/templates/casanovo/casanovo4.yaml ./casanovo.yaml 
 
    and run the workflow with the ``-4`` flag:
 
