@@ -18,7 +18,7 @@ To build and test the documentation locally, you will need to have Python instal
 
     ```bash
     git clone <repository-url>
-    cd proteomics-analysis-documentation
+    cd maccoss-gsit-cluster-docs
     ```
 
 2.  **Create and activate a virtual environment:**
